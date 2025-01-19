@@ -16,6 +16,7 @@ variable "vpc_cidr" {
 variable "vpc_name" {
   type        = string
   description = "DevOps Project 1 VPC 1"
+  default     = "vpc-main"
 }
 
 variable "cidr_public_subnet" {
