@@ -2,7 +2,7 @@ provider "aws" {
   region                   = "eu-central-1"
 }
 
-module "networking" {
+module "vpc" {
   source               = "./modules/vpc_module"
   vpc_cidr             = var.vpc_cidr
   vpc_name             = var.vpc_name
